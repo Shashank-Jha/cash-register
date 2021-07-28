@@ -71,3 +71,14 @@ li {
   margin: 0.5rem;
   background-color: var(--secondary-color);
 }
+
+footer {
+  margin-top: 100px;
+  font-size: larger;
+}
+
+a {
+  text-decoration: none;
+  color: #01474a;
+  font-weight: bold;
+}
