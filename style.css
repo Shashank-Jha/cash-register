@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #01474a;
+  --secondary-color: #25c1ad;
+  --bg-color: #c5e4e7;
+}
+
+body {
+  text-align: center;
+
+  background-color: var(--bg-color);
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  font-size: xx-large;
+  color: #01474a;
+}
+main {
+  color: whitesmoke;
+  max-width: 600px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  padding: 10px;
+}
+
+input {
+  font: inherit;
+  padding: 10px;
+  background: var(--bg-color);
+}
+
+button {
+  margin: 20px;
+  padding: 10px;
+  width: 100px;
+  font-size: large;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 0.3rem;
+  background-color: var(--secondary-color);
+}
+
+.bill-section {
+  display: none;
+}
+
+#returned-amt {
+  font-size: x-large;
+}
+
+ul {
+  list-style: none;
+  display: none;
+  margin: auto;
+  max-width: 300px;
+  font-size: large;
+  padding-left: 0;
+  padding-bottom: 10px;
+}
+
+li {
+  color: #01474a;
+  font-weight: bold;
+  font-size: large;
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: var(--secondary-color);
+}
