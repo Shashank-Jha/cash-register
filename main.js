@@ -34,7 +34,7 @@ nextBtn.addEventListener("click",()=>{
 
 calcBtn.addEventListener("click",()=>{
 
-    document.getElementById("ul-list").style.display = "none";
+    document.getElementById("table").style.display = "none";
     returnAmt = paidAmt.value - billAmt.value;
 
     if(returnAmt==0){ 
@@ -46,11 +46,11 @@ calcBtn.addEventListener("click",()=>{
     else {
     
     calculateChange(returnAmt);
-    document.getElementById("ul-list").style.display = "block";
+    document.getElementById("table").style.display = "block";
     document.getElementById("returned-amt").innerText = "Returned Amount : " + returnAmt;
    for(let i=0;i<9;i++)
     document.getElementById(notes[i].toString()).innerText =
-         notes[i]+" -> " + noOfNotes[i]  
+        noOfNotes[i]  
     ;
     }
 });
